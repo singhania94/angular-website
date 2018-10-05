@@ -6,7 +6,9 @@ import { Post } from './post';
 
 import { Observable, of } from 'rxjs';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class PostService {
 
   private endpoint: string = 'localhost:8080';

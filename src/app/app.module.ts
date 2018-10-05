@@ -1,5 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import { UniversalRouterModule } from './universal-routing.module';
 
 import { AppComponent } from './app.component';
 import { UniversalMenuComponent } from './universal-menu/universal-menu.component';
@@ -30,7 +34,9 @@ import { IntroductionComponent } from './universal-content/home/introduction/int
     IntroductionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    UniversalRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
