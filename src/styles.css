@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    /*font-family: 'Special Elite', cursive;*/
+}
+
+.magic-box {
+    border-style: solid;
+    border-color: white;
+    border-width: medium medium;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.50);
+    color: white;
+}
