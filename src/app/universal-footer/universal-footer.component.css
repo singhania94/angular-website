@@ -1,0 +1,19 @@
+.footer {
+    background: black;
+}
+
+.social-media-options {
+    padding: 2% 0% 2% 0%;
+    text-align: center;
+}
+
+.contact-options {
+    padding: 2% 4% 4% 4%;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

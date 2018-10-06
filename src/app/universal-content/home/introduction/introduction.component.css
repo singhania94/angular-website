@@ -1,12 +1,17 @@
 .row {
     background: url('../../../../assets/img/home_intro_bg.jpg') no-repeat fixed;
-    background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
 }
 
 .magic-box {
-    margin: 30% 0% 20% 0%;
+    border-style: solid;
+    border-color: white;
+    border-width: medium medium;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.50);
+    color: white;
+    margin: 35% 0% 15% 0%;
     padding: 3%;
 }
 

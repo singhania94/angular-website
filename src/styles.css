@@ -7,12 +7,3 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
-.magic-box {
-    border-style: solid;
-    border-color: white;
-    border-width: medium medium;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.50);
-    color: white;
-}
