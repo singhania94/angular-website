@@ -18,6 +18,9 @@ import { VideosComponent } from './universal-content/videos/videos.component';
 import { IntroductionComponent } from './universal-content/home/introduction/introduction.component';
 import { BriefComponent } from './universal-content/home/brief/brief.component';
 import { ContactMeComponent } from './universal-content/home/contact-me/contact-me.component';
+import { CodeComponent } from './universal-content/home/code/code.component';
+import { TeachComponent } from './universal-content/home/teach/teach.component';
+import { TravelComponent } from './universal-content/home/travel/travel.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { ContactMeComponent } from './universal-content/home/contact-me/contact-
     VideosComponent,
     IntroductionComponent,
     BriefComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    CodeComponent,
+    TeachComponent,
+    TravelComponent
   ],
   imports: [
     BrowserModule,
