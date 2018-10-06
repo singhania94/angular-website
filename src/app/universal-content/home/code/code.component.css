@@ -9,7 +9,7 @@
 }
 
 .description {
-    background: rgb(216, 216, 216);
+    background: rgb(240, 239, 239);
 }
 
 .desc {
@@ -18,4 +18,8 @@
     border-style: solid;
     color: black;
     font-weight: 900;
+}
+
+a {
+    text-decoration: none;
 }

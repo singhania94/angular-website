@@ -9,6 +9,7 @@
 }
 
 h3 {
+    opacity: 0;
     border-style: solid;
     color: white;
 }
@@ -51,6 +52,10 @@ a {
     background-size: cover;
 }
 
+.code:hover h3 {
+    opacity: 1;
+}
+
 .teach:hover {
     background: url('../../../../assets/img/teach_edited-reduced.jpg') no-repeat;
     background-position-x: center;
@@ -58,9 +63,17 @@ a {
     background-size: cover;
 }
 
+.teach:hover h3 {
+    opacity: 1;
+}
+
 .travel:hover {
     background: url('../../../../assets/img/travel_edited-reduced.jpg') no-repeat;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+}
+
+.travel:hover h3 {
+    opacity: 1;
 }
