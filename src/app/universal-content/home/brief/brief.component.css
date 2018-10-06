@@ -1,37 +1,62 @@
 .row {
     padding: 2% 2% 5% 2%;
     text-align: center;
+    color: black;
 }
 
 .title {
     padding: 5% 0% 5% 0%;
 }
 
-.code {
-    background: url('../../../../assets/img/bg_edit_bw.png') no-repeat fixed;
-}
-
-.teach {
-    background: url('../../../../assets/img/jy.jpg') no-repeat fixed;
-}
-
-.travel {
-    background: url('../../../../assets/img/travel.jpg') no-repeat fixed;
+h3 {
+    border-style: solid;
+    color: white;
 }
 
 .code,
 .teach,
 .travel {
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: cover;
-    padding: 50% 0%;
-    color: white;
+    padding: 50% 10%;
 }
 
-.code:hover,
-.teach:hover,
+.code {
+    background: url('../../../../assets/img/coding_edited_bw-reduced.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.teach {
+    background: url('../../../../assets/img/teach_edited_bw-reduced.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.travel {
+    background: url('../../../../assets/img/travel_edited_bw-reduced.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.code:hover {
+    background: url('../../../../assets/img/coding_edited-reduced.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.teach:hover {
+    background: url('../../../../assets/img/teach_edited-reduced.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
 .travel:hover {
-    background: white;
-    color: black;
+    background: url('../../../../assets/img/travel_edited-reduced.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
 }
