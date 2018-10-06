@@ -1,0 +1,19 @@
+.row {
+    background: url('../../../../assets/img/bg_edit_bw.png') no-repeat fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+.magic-box {
+    margin: 30% 0% 20% 0%;
+    padding: 3%;
+}
+
+p {
+    margin: 0% 0%;
+}
+
+a {
+    text-decoration: none;
+}

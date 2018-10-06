@@ -1,0 +1,18 @@
+.row {
+    background: rgb(208, 208, 208);
+    padding: 7% 10% 5% 10%;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    margin: 5% auto 5% auto;
+    padding: 2% 2%;
+    border-style: solid;
+    color: black;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
