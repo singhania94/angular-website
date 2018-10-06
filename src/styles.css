@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-html {
+html,
+body {
     font-family: 'Roboto Mono', monospace;
     /*font-family: 'Special Elite', cursive;*/
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .magic-box {

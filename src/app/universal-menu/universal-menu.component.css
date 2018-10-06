@@ -1,0 +1,26 @@
+.universal-menu {
+    background: black;
+    padding: 15px;
+}
+
+img {
+    position: absolute;
+    height: 120px;
+    width: 180px;
+}
+
+.menu-options {
+    margin-left: 400px;
+}
+
+.menu-option {
+    margin: 0% 2%;
+    padding: 1.5% 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-option:hover {
+    background: white;
+    color: black;
+}

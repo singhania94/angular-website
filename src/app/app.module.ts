@@ -15,8 +15,9 @@ import { ContactComponent } from './universal-content/contact/contact.component'
 import { ContentWritingComponent } from './universal-content/content-writing/content-writing.component';
 import { TechBlogsComponent } from './universal-content/tech-blogs/tech-blogs.component';
 import { VideosComponent } from './universal-content/videos/videos.component';
-import { HeaderComponent } from './universal-content/home/header/header.component';
 import { IntroductionComponent } from './universal-content/home/introduction/introduction.component';
+import { BriefComponent } from './universal-content/home/brief/brief.component';
+import { ContactMeComponent } from './universal-content/home/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -30,8 +31,9 @@ import { IntroductionComponent } from './universal-content/home/introduction/int
     ContentWritingComponent,
     TechBlogsComponent,
     VideosComponent,
-    HeaderComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    BriefComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
