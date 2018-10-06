@@ -1,0 +1,21 @@
+.row {
+    padding: 2%;
+}
+
+.title {
+    padding: 10% 4%;
+    background: black;
+    color: white;
+}
+
+.description {
+    background: rgb(216, 216, 216);
+}
+
+.desc {
+    margin: 2% 2%;
+    padding: 2%;
+    border-style: solid;
+    color: black;
+    font-weight: 900;
+}
