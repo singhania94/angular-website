@@ -1,44 +1,37 @@
 .row {
-    padding: 2% 2% 2% 2%;
+    padding: 2% 2% 5% 2%;
     text-align: center;
 }
 
 .title {
-    margin: 5% 5%;
-}
-
-.square {
-    color: white;
+    padding: 5% 0% 5% 0%;
 }
 
 .code {
-    padding: 50% 0%;
     background: url('../../../../assets/img/bg_edit_bw.png') no-repeat fixed;
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: cover;
 }
 
 .teach {
-    padding: 50% 0%;
-    background: url('../../../../assets/img/bg_edit_bw.png') no-repeat fixed;
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: cover;
+    background: url('../../../../assets/img/jy.jpg') no-repeat fixed;
 }
 
 .travel {
-    padding: 50% 0%;
-    background: url('../../../../assets/img/bg_edit_bw.png') no-repeat fixed;
+    background: url('../../../../assets/img/travel.jpg') no-repeat fixed;
+}
+
+.code,
+.teach,
+.travel {
     background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
+    padding: 50% 0%;
+    color: white;
 }
 
 .code:hover,
 .teach:hover,
 .travel:hover {
-    border-style: solid;
     background: white;
     color: black;
 }
