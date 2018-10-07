@@ -1,7 +1,7 @@
 .heading {
-    margin: 3% 0% 0% 1%;
+    margin: 3% 0% 0% 0%;
     font-weight: 900;
-    font-size: 50px
+    font-size: 75px;
 }
 
 hr {
@@ -13,7 +13,7 @@ hr {
 
 .content {
     padding: 5% 5% 10% 5%;
-    background: black;
+    background: rgb(19, 19, 19);
     color: white;
     font-weight: 700;
 }
@@ -24,8 +24,6 @@ a {
 }
 
 .map {
-    background: url('../../../../assets/img/home-brief-travel-metro_edited.jpg') no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+    background: url('../../../../assets/img/home-brief-travel-metro_edited.jpg');
     background-size: cover;
 }

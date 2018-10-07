@@ -1,14 +1,18 @@
-.row {
+#contact-me {
     background: rgb(208, 208, 208);
-    padding: 7% 10% 5% 10%;
+    padding: 5% 5%;
     text-align: center;
 }
 
+.header {
+    margin: 1% 1%;
+}
+
 .button {
-    text-decoration: none;
-    margin: 5% auto 5% auto;
-    padding: 2% 2%;
+    margin: 5% auto 1% auto;
     border-style: solid;
+    padding: 2% 2%;
+    text-decoration: none;
     color: black;
 }
 

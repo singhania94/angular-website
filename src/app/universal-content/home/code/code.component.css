@@ -1,11 +1,7 @@
-.row {
-    padding: 1%;
-}
-
 .heading {
     margin: 3% 0% 0% 0%;
     font-weight: 900;
-    font-size: 50px
+    font-size: 75px;
 }
 
 hr {
@@ -17,10 +13,7 @@ hr {
 
 .title {
     padding: 10% 4%;
-    background: url('../../../../assets/img/home-brief-code_edited.jpg') no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
+    background: url('../../../../assets/img/home-brief-code_edited.jpg');
     color: white;
 }
 
@@ -30,7 +23,7 @@ hr {
 
 .desc {
     margin: 2% 2%;
-    padding: 2%;
+    padding: 2% 4% 2% 2%;
     border-style: solid;
     color: black;
     font-weight: 900;

@@ -1,11 +1,7 @@
-.row {
-    padding: 1%;
-}
-
 .heading {
     margin: 3% 0% 0% 0%;
     font-weight: 900;
-    font-size: 50px
+    font-size: 75px;
 }
 
 hr {
@@ -15,17 +11,16 @@ hr {
     width: 100px;
 }
 
-.content {
-    background: url('../../../../assets/img/home-brief-learn_edited.jpg') no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+.canvas {
+    background: url('../../../../assets/img/home-brief-learn_edited.jpg');
     background-size: cover;
-    padding: 3% 50% 10% 3%;
-    color: black;
+    padding: 2%;
 }
 
-h1 {
-    font-size: 30px;
+.content {
+    margin-bottom: 15%;
+    padding: 0%;
+    color: black;
 }
 
 h4 {
