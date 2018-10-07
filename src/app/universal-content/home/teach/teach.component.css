@@ -1,22 +1,41 @@
 .row {
-    padding: 2%;
+    padding: 1%;
 }
 
 .heading {
-    margin: 2% 0% 0% 0%;
+    margin: 3% 0% 0% 0%;
     font-weight: 900;
     font-size: 50px
 }
 
+hr {
+    border: black;
+    border-style: inset;
+    border-width: 3px;
+    width: 100px;
+}
+
 .content {
-    background: url('../../../../assets/img/home-brief-teach_edited.jpg') no-repeat;
+    background: url('../../../../assets/img/home-brief-learn_edited.jpg') no-repeat;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
-    padding: 10%;
-    color: black
+    padding: 3% 50% 10% 3%;
+    color: black;
 }
 
 h1 {
     font-size: 30px;
+}
+
+h4 {
+    border-style: solid;
+    padding: 5%;
+    background: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: green;
 }

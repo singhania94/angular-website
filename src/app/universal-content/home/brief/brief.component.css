@@ -1,5 +1,5 @@
 .row {
-    padding: 2% 2% 5% 2%;
+    padding: 1.5% 1.5% 5% 1.5%;
     text-align: center;
     color: black;
 }
@@ -12,16 +12,21 @@ h3 {
     opacity: 0;
     border-style: solid;
     color: white;
+    background: rgba(255, 255, 255, 0.25);
 }
 
 a {
     text-decoration: none;
 }
 
+.square {
+    padding: 0% 0.75%
+}
+
 .code,
 .teach,
 .travel {
-    padding: 50% 10%;
+    padding: 50% 5%;
 }
 
 .code {

@@ -9,7 +9,7 @@
     border-color: white;
     border-width: medium medium;
     text-align: center;
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(0, 0, 0, 0.9);
     color: white;
     margin: 25% 0% 10% 0%;
     padding: 3%;
@@ -25,10 +25,12 @@ h3 {
 }
 
 h5 {
-    font-weight: 700;
+    font-weight: 500;
     margin: 0% 0%;
+    color: rgb(184, 182, 182);
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
