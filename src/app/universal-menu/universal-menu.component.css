@@ -1,23 +1,39 @@
 .universal-menu {
-    background: black;
-    padding: 10px;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.90);
+    padding: 5px;
+}
+
+.logo {
+    padding: 0% 0%;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: flex-end;
 }
 
 img {
-    position: absolute;
-    height: 120px;
-    width: 180px;
+    height: 90px;
+    width: 120px;
+}
+
+img:hover {
+    opacity: 0.75;
 }
 
 .menu-option {
-    margin: 0% 2%;
-    padding: 1.5% 2%;
+    margin: 0px 20px;
+    padding: 10px 20px;
     text-decoration: none;
     color: white;
+    font-weight: 900;
 }
 
 .menu-option:hover {
     background: white;
     color: black;
-    font-weight: 900;
 }
