@@ -11,11 +11,20 @@
     text-align: center;
     background: rgba(0, 0, 0, 0.50);
     color: white;
-    margin: 35% 0% 15% 0%;
+    margin: 25% 0% 10% 0%;
     padding: 3%;
 }
 
-p {
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h5 {
     font-weight: 700;
     margin: 0% 0%;
 }

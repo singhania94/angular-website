@@ -1,0 +1,22 @@
+.row {
+    padding: 2%;
+}
+
+.heading {
+    margin: 2% 0% 0% 0%;
+    font-weight: 900;
+    font-size: 50px
+}
+
+.content {
+    background: url('../../../../assets/img/home-brief-teach_edited.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    padding: 10%;
+    color: black
+}
+
+h1 {
+    font-size: 30px;
+}

@@ -2,9 +2,17 @@
     padding: 2%;
 }
 
+.heading {
+    font-weight: 900;
+    font-size: 50px
+}
+
 .title {
     padding: 10% 4%;
-    background: black;
+    background: url('../../../../assets/img/home-brief-code_edited.jpg') no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
     color: white;
 }
 
@@ -20,6 +28,16 @@
     font-weight: 900;
 }
 
+.button:hover {
+    border: white;
+    background: black;
+    color: white;
+}
+
 a {
     text-decoration: none;
+}
+
+h3 {
+    text-align: center;
 }
