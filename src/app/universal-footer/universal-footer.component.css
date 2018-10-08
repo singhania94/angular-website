@@ -1,16 +1,26 @@
-.footer {
+#footer {
+    width: 100%;
     background: black;
+    padding: 1%;
 }
 
 .social-media-options {
-    padding: 2% 0% 2% 0%;
+    padding: 1% 2%;
     text-align: center;
+}
+
+.social-media-option {
+    padding: 1%;
 }
 
 .contact-options {
     padding: 2% 4% 4% 4%;
     color: white;
     text-align: center;
+}
+
+.contact-option {
+    padding: 2%;
 }
 
 a {
