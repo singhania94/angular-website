@@ -26,8 +26,10 @@ img:hover {
 }
 
 .menu-option {
-    margin: 0% 0.95%;
-    padding: 1% 0.95%;
+    position: relative;
+    float: right;
+    margin: 0% 0.89%;
+    padding: 1% 0.89%;
     text-decoration: none;
     color: white;
     font-weight: 900;
