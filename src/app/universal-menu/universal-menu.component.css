@@ -1,3 +1,22 @@
+.mobile-menu {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+    background: transparent;
+    color: white;
+    padding: 5px 5px;
+}
+
+.logo-mobile {
+    padding: 0% 0%;
+}
+
+.mobile-menu-options {
+    padding: 10px 10px;
+    text-align: right;
+}
+
 .universal-menu {
     position: fixed;
     height: 60px;
