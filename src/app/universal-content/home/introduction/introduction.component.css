@@ -1,34 +1,39 @@
 #intro {
     width: 100%;
-    background: url('../../../../assets/img/home_intro_bg-edited-bw-edited.jpg');
+    background: url('../../../../assets/img/home_intro_bg-edited-bw-edited-cropped.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
-    padding: 20% 5% 5% 5%;
+    padding: 400px 5% 5% 5%;
 }
 
 .black-box {
     border-style: solid;
     border-color: white;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.80);
     text-align: center;
     color: white;
-    margin: 25% auto 3% auto;
+    margin: 10% auto 3% auto;
     padding: 2%;
 }
 
 h1,
 h3,
 h5 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 300%;
+}
+
+h3 {
+    font-size: 150%;
 }
 
 h5 {
+    font-size: 100%;
     color: rgb(184, 182, 182);
 }
 

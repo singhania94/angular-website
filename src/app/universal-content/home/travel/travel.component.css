@@ -12,10 +12,10 @@ hr {
 }
 
 .content {
-    padding: 5% 5% 10% 5%;
+    padding: 5% 5% 15% 5%;
     background: rgb(19, 19, 19);
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 a {
