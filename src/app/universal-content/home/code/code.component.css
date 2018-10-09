@@ -24,10 +24,11 @@ hr {
 
 .description {
     background: rgb(240, 239, 239);
+    padding: 2% 2%;
 }
 
 .desc {
-    margin: 2% 2%;
+    margin: 2% 0%;
     padding: 2% 4% 2% 2%;
     border-style: solid;
     color: black;
