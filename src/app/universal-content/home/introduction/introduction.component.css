@@ -9,9 +9,9 @@
 }
 
 .black-box {
-    border-style: solid;
-    border-color: white;
-    background: rgba(0, 0, 0, 0.80);
+    /*border-style: solid;
+    border-color: white;*/
+    background: rgba(0, 0, 0, 0.60);
     text-align: center;
     color: white;
     margin: 10% auto 3% auto;

@@ -1,38 +1,14 @@
-.mobile-menu {
-    position: fixed;
-    height: 60px;
-    width: 100%;
-    z-index: 2;
-    background: transparent;
-    color: white;
-    padding: 5px 5px;
-}
-
-.logo-mobile {
-    padding: 0% 0%;
-}
-
-.mobile-menu-options {
-    padding: 10px 10px;
-    text-align: right;
-}
-
 .universal-menu {
     position: fixed;
     height: 60px;
     width: 100%;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.90);
+    background: rgba(0, 0, 0, 0.80);
     padding: 5px;
 }
 
 .logo {
     padding: 0% 0%;
-}
-
-.menu-options {
-    display: flex;
-    justify-content: flex-end;
 }
 
 img {
@@ -44,11 +20,24 @@ img:hover {
     opacity: 0.75;
 }
 
+.mobile-menu-options {
+    text-align: right;
+    margin: auto;
+    color: white;
+    font-size: 150%;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0% 0%;
+}
+
 .menu-option {
     position: relative;
     float: right;
-    margin: 0% 0.89%;
-    padding: 1% 0.89%;
+    margin: 1% 0.89%;
+    padding: 1% 0.89;
     text-decoration: none;
     color: white;
     font-weight: 500;
