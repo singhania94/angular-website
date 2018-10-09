@@ -50,8 +50,8 @@ img:hover {
 .menu-option {
     position: relative;
     float: right;
-    /*margin: 1% 0.89%;*/
-    padding: 1% 2% 1% 2%;
+    margin: auto 0.5%;
+    padding: 1% 1% 1% 1%;
     text-decoration: none;
     color: white;
     font-weight: 500;
