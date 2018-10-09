@@ -1,9 +1,10 @@
 #home-code {
-    padding: 0% 5% 0% 5%;
+    background: rgb(240, 239, 239);
+    padding: 0% 5% 3% 5%;
 }
 
 .heading {
-    margin: 8% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
     font-weight: 900;
     font-size: 75px;
 }
@@ -23,7 +24,6 @@ hr {
 }
 
 .description {
-    background: rgb(240, 239, 239);
     padding: 2% 2%;
 }
 
