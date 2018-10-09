@@ -27,6 +27,20 @@ img:hover {
     font-size: 150%;
 }
 
+.dropdown .btn {
+    background: transparent;
+}
+
+.dropdown .btn:focus {
+    background: white;
+    color: black;
+}
+
+.dropdown-item:active {
+    background: black;
+    color: white;
+}
+
 .menu-options {
     display: flex;
     justify-content: flex-end;
@@ -36,11 +50,12 @@ img:hover {
 .menu-option {
     position: relative;
     float: right;
-    margin: 1% 0.89%;
-    padding: 1% 0.89;
+    /*margin: 1% 0.89%;*/
+    padding: 1% 2% 1% 2%;
     text-decoration: none;
     color: white;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .menu-option:hover {
