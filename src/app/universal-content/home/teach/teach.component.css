@@ -1,6 +1,5 @@
 #home-teach {
     padding: 0% 5% 3% 5%;
-    
 }
 
 .heading {
@@ -28,7 +27,7 @@ hr {
     color: black;
 }
 
-h4 {
+h5 {
     /*border-style: solid;*/
     padding: 5%;
     background: rgba(255, 255, 255, 0.40);
