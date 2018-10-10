@@ -1,71 +1,123 @@
 <div class="row" id="resume-detail">
-  <div class="col-md-12 row resume-section" id="tech-stack">
-    <div class="col-md-4 heading">
-      <h3>TECHNOLOGIES</h3>
+    <div class="col-md-12 row resume-section" id="tech-stack">
+        <div class="col-md-3 heading">
+            <h3>TECHNOLOGIES</h3>
+        </div>
+        <div class="col-md-9 detail row">
+            <div class="col-md-6">
+                <h5 class="sub-heading">DAY-TO-DAY-COMFORT-</h5>
+                <ul>
+                    <li><span class="sub-sub-heading">JAVA (java8)</span> - Spring-boot, Spring-batch, REST, JDBC, Junit testing.</li>
+                    <li><span class="sub-sub-heading">CLOUD</span> - AWS, Docker, Openshift (Kubernetes).</li>
+                    <li><span class="sub-sub-heading">MESSAGING / PROCESSING / LOGS</span> - Apache Kafka (Confluent), Apache Storm, ELK, X-pack.</li>
+                    <li><span class="sub-sub-heading">STORAGE</span> - MongoDB, MySQL, Hazelcast distributed cache.</li>
+                    <li><span class="sub-sub-heading">VERSION CONTROL</span> - Git.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5 class="sub-heading">HAVE EXPERIENCE WITH-</h5>
+                <ul>
+                    <li><span class="sub-sub-heading">FRONTEND</span> - AngularJS.</li>
+                    <li>Python (3+, 2+).</li>
+                    <li>C, C++, Javascript, HTML.</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="col-md-8 detail row">
-      <div class="col-md-6">
-        <h5 class="sub-heading">DAY-TO-DAY-COMFORT-</h5>
-        <ul>
-          <li><span class="sub-sub-heading">JAVA (java8)</span> - Spring-boot, Spring-batch, REST, JDBC, Junit testing.</li>
-          <li><span class="sub-sub-heading">CLOUD</span> - AWS, Docker, Openshift (Kubernetes).</li>
-          <li><span class="sub-sub-heading">MESSAGING / PROCESSING / LOGS</span> - Apache Kafka (Confluent), Apache Storm, ELK, X-pack.</li>
-          <li><span class="sub-sub-heading">STORAGE</span> - MongoDB, MySQL, Hazelcast distributed cache.</li>
-          <li><span class="sub-sub-heading">VERSION CONTROL</span> - Git.</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h5 class="sub-heading">EXPERIENCE WITH-</h5>
-        <ul>
-          <li><span class="sub-sub-heading">FRONTEND</span> - AngularJS.</li>
-          <li>Python (3+, 2+).</li>
-          <li>C, C++, Javascript, HTML.</li>
-        </ul>
-      </div>
-    </div> 
-  </div>
-  <div class="col-md-12 row resume-section" id="experience">
-    <div class="col-md-4 heading">
-      <h3>PROFESSIONAL EXPERIENCE</h3>
+    <div class="col-md-12 row resume-section" id="experience">
+        <div class="col-md-3 heading">
+            <h3>PROFESSIONAL EXPERIENCE</h3>
+        </div>
+        <div class="col-md-9 detail">
+            <div id="ace" class="resume-sub-section">
+                <p class="date">AUGUST 2017 - PRESENT</p>
+                <h5 class="sub-heading">Calculation Engine</h5>
+                <p class="sub-sub-heading">CITIBANK SERVICES PVT. LTD., PUNE - ASST. MANAGER</p>
+                <ul class="text">
+                    <li>The team manages the counterparty credit RISK pricing of various assets for Citi. The portfolio wise numbers are generated for regulators and the higher management.</li>
+                    <li>Currently replacing IBM Symphony grid with AWS (managed via Openshift) to spawn process intensive task of pricing trades through 10k simulation paths. This will save millions of dollars a year of Symphony licences and H/W costs.</li>
+                    <li>Planned and built a tool to extract, analyse and showcase crucial stats, and alerts in real-time about the different code runs, using the logs, via ELK and X-pack. It saves hundreds of man hours which were spent searching through logs.</li>
+                </ul>
+            </div>
+            <div id="rhubcore" class="resume-sub-section">
+                <p class="date">JANUARY 2017 - JULY 2017</p>
+                <h5 class="sub-heading">Reporting Hub</h5>
+                <p class="sub-sub-heading">CITIBANK SERVICES PVT. LTD., PUNE - ASST. MANAGER</p>
+                <ul class="text">
+                    <li>The system handles the real-time streaming, enriching and reporting of trades (about a million trades a minute), as per the regulatory requirements (MIFID II).</li>
+                    <li>Worked on building a central framework which was leveraged for constructing all the sourcing upstreams and reporting downstreams, via Apache Kafka and Apache Storm.</li>
+                </ul>
+            </div>
+            <div id="feedspec" class="resume-sub-section">
+                <p class="date">JULY 2016 - DECEMBER 2016</p>
+                <h5 class="sub-heading">FeedSpec Manager</h5>
+                <p class="sub-sub-heading">CITIBANK SERVICES PVT. LTD., PUNE - ASST. MANAGER</p>
+                <ul class="text">
+                    <li>Worked on an application to store, manage and audit changes in the trade feed specifications (MongoDB and Spring Boot).</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="col-md-8 detail">
-      <div id="ace">
-        <p class="date">AUGUST 2017 - PRESENT</p>
-        <h5 class="sub-heading">Calculation Engine</h5>
-        <p class="sub-sub-heading">CITIBANK SERVICES PVT. LTD., PUNE - ASST. MANAGER</p>
-        <ul class="text">  
-          <li>The team manages the counterparty credit RISK pricing of various assets for Citi. The portfolio wise numbers are generated for regulators and the higher management. The work consist of pricing more than four million trades per day across 1k simulation paths for 400+ tenor points.</li>
-          <li>Currently replacing IBM Symphony grid with AWS (managed via Openshift) to spawn process intensive task of pricing trades through 10k simulation paths. This will save millions of dollars a year of Symphony licences and H/W costs.</li>
-          <li>The work requires me to build Openshift libraries to handle pricers on AWS efficiently. This library works on launching multiple instances of the code per path for thousands of simulation paths across multiple AWS clusters, with automatic and dynamic scaling of the count of instances as per the requirement and request queue size. Currently enhancing the library to support various complexities of requests and failover scenarios.</li>
-          <li>Built Apache Kafka libraries in Java and Python for sending pricing requests to the cloud. The library handles multiple producers sending requests to topics with multiple consumers listening per topic. Currently working on TLS encryption for sending messages securely.</li>
-          <li>Planned and built a tool to extract, analyse and showcase crucial stats, and alerts in real-time about the different code runs across multiple boxes for different requests, using the logs, via ELK and X-pack. It saves hundreds of man hours which were spent searching through logs. Currently working on routing AWS logs from multiple pods across different nodes and across multiple clusters, to the stack.</li>
-        </ul>
-      </div>
-      <div id="rhubcore">
-        <p class="date">JANUARY 2017 - JULY 2017</p>
-        <h5 class="sub-heading">Calculation Engine</h5>
-        <p class="sub-sub-heading">CITIBANK SERVICES PVT. LTD., PUNE - ASST. MANAGER</p>
-        <ul class="text">          
-        </ul>
-      </div>
-    </div> 
-  </div>
-  <div class="col-md-12 row resume-section" id="education">
-    <div class="col-md-4 heading">
-      <h3>EDUCATION</h3>
+    <div class="col-md-12 row resume-section" id="education">
+        <div class="col-md-3 heading">
+            <h3>EDUCATION</h3>
+        </div>
+        <div class="col-md-9 detail">
+            <div id="graduate" class="resume-sub-section">
+                <p class="date">JULY 2012 - MAY 2016</p>
+                <h5 class="sub-heading">Visvesvaraya National Institute of Technology, Nagpur</h5>
+                <p class="sub-sub-heading">B. TECH., COMPUTER SCIENCE AND ENGINEERING</p>
+            </div>
+            <div id="hsec" class="resume-sub-section">
+                <p class="date">2010 - 2012</p>
+                <h5 class="sub-heading">Smt. Meherbanu College of Science, Akola</h5>
+                <p class="sub-sub-heading">HSC, MAHARASHTRA STATE BOARD</p>
+            </div>
+            <div id="sec" class="resume-sub-section">
+                <p class="date">2010</p>
+                <h5 class="sub-heading">Mount Carmel Sec. and Higher Sec. School, Akola</h5>
+                <p class="sub-sub-heading">SSC, MAHARASHTRA STATE BOARD</p>
+            </div>
+        </div>
     </div>
-    <div class="col-md-8 detail"></div> 
-  </div>
-  <div class="col-md-12 row resume-section" id="responsibility">
-    <div class="col-md-4 heading">
-      <h3>POSITIONS OF RESPONSIBILITY</h3>
+    <div class="col-md-12 row resume-section" id="responsibility">
+        <div class="col-md-3 heading">
+            <h3>POSITIONS OF RESPONSIBILITY</h3>
+        </div>
+        <div class="col-md-9 detail">
+            <div id="csipl-mentor" class="resume-sub-section">
+                <p class="date">MARCH 2018</p>
+                <h5 class="sub-heading">CSIPL, Pune</h5>
+                <p class="sub-sub-heading">MENTOR at CITI BRIDGE PROGRAM</p>
+                <p class="res-text">Mentor to a batch of college students from Cummins college, Pune. at the connect program. Guided the batch for the project to build a full stack application based on stock market.</p>
+            </div>
+            <div id="mad-multiple" class="resume-sub-section">
+                <p class="date">MARCH 2013 - APRIL 2016</p>
+                <h5 class="sub-heading">Make A Difference, Nagpur</h5>
+                <p class="sub-sub-heading">FELLOW - OPERATIONS / FINANCE / TEACHER</p>
+                <p class="res-text">The position strives to enable a hassle free, smooth and efficient running of all MAD Programs in the centers by maintaining close collaboration with the project heads and providing regular updates to the Center Authorities. The vertical
+                    also expands its dimension by supporting the Center Authorities in running the center effectively. A custodian of the city’s finances for all the operations.</p>
+            </div>
+            <div id="clg-mentor" class="resume-sub-section">
+                <p class="date">JULY 2014 - APRIL 2015</p>
+                <h5 class="sub-heading">VNIT, Nagpur</h5>
+                <p class="sub-sub-heading">STUDENT MENTOR</p>
+                <p class="res-text">Selected as the Student Mentor under the SMP program. A guide to a batch of 15 first year students for academic and social endeavors in the college.</p>
+            </div>
+        </div>
     </div>
-    <div class="col-md-8 detail"></div> 
-  </div>
-  <div class="col-md-12 row resume-section" id="achievements">
-    <div class="col-md-4 heading">
-      <h3>ACHIEVEMENTS</h3>
+    <div class="col-md-12 row resume-section" id="achievements">
+        <div class="col-md-3 heading">
+            <h3>ACHIEVEMENTS</h3>
+        </div>
+        <div class="col-md-9 detail">
+            <ul>
+                <li>Scholarship holder for the JAGRITI YATRA ‘16.</li>
+                <li>Attended the 10-day Vipassana meditation camp at Igatpuri, dist. Nashik in July ‘15.</li>
+                <li>AIR 5271 in IIT-JEE ‘12.</li>
+                <li>MTS talent search examination scholarship holder ‘09-’10.</li>
+                <li>Winner of Debates and oratory competitions in school.</li>
+            </ul>
+        </div>
     </div>
-    <div class="col-md-8 detail"></div> 
-  </div>
 </div>

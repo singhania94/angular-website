@@ -1,19 +1,40 @@
 #resume-detail {
-    padding: 10%;
+    padding: 5%;
 }
 
-.heading {
-    text-align: right;
+.resume-section {
+    padding: 2%;
 }
 
-.sub-heading, .sub-sub-heading {
-    font-weight: 700;
+.heading,
+.detail {
+    padding: 1%;
+}
+
+.sub-heading {
+    margin: 0%;
+    padding: 1%;
+    font-weight: 800;
+}
+
+.sub-sub-heading {
+    padding: 0% 1%;
+    font-weight: 800;
+}
+
+.resume-sub-section {
+    padding: 2%;
 }
 
 .date {
+    margin: 0%;
     text-align: right;
 }
 
 .li {
     font-weight: 700;
+}
+
+.res-text {
+    padding: 0% 1%;
 }
