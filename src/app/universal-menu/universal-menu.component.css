@@ -3,7 +3,7 @@
     height: 60px;
     width: 100%;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.80);
+    background: rgba(0, 0, 0, 0.60);
     padding: 5px;
 }
 
@@ -51,7 +51,7 @@ img:hover {
     position: relative;
     float: right;
     margin: auto 0.5%;
-    padding: 1% 1% 1% 1%;
+    padding: 1% 2% 1% 2%;
     text-decoration: none;
     color: white;
     font-weight: 500;
