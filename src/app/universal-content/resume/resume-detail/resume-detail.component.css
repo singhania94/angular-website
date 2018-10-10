@@ -9,3 +9,11 @@
 .sub-heading, .sub-sub-heading {
     font-weight: 700;
 }
+
+.date {
+    text-align: right;
+}
+
+.li {
+    font-weight: 700;
+}

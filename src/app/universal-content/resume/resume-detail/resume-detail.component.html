@@ -1,5 +1,5 @@
 <div class="row" id="resume-detail">
-  <div class="col-md-12 row" id="tech-stack">
+  <div class="col-md-12 row resume-section" id="tech-stack">
     <div class="col-md-4 heading">
       <h3>TECHNOLOGIES</h3>
     </div>
@@ -7,42 +7,62 @@
       <div class="col-md-6">
         <h5 class="sub-heading">DAY-TO-DAY-COMFORT-</h5>
         <ul>
-          <li><div class="sub-sub-heading">JAVA</div> (java8) - Spring-boot, Spring-batch, REST, JDBC, Junit testing.</li>
-          <li><div class="sub-sub-heading">CLOUD</div> - AWS, Docker, Openshift (Kubernetes).</li>
-          <li><div class="sub-sub-heading">MESSAGING / PROCESSING / LOGS</div> - Apache Kafka (Confluent), Apache Storm, ELK, X-pack.</li>
-          <li><div class="sub-sub-heading">STORAGE</div> - MongoDB, MySQL, Hazelcast distributed cache.</li>
-          <li><div class="sub-sub-heading">VERSION CONTROL</div> - Git.</li>
+          <li><span class="sub-sub-heading">JAVA (java8)</span> - Spring-boot, Spring-batch, REST, JDBC, Junit testing.</li>
+          <li><span class="sub-sub-heading">CLOUD</span> - AWS, Docker, Openshift (Kubernetes).</li>
+          <li><span class="sub-sub-heading">MESSAGING / PROCESSING / LOGS</span> - Apache Kafka (Confluent), Apache Storm, ELK, X-pack.</li>
+          <li><span class="sub-sub-heading">STORAGE</span> - MongoDB, MySQL, Hazelcast distributed cache.</li>
+          <li><span class="sub-sub-heading">VERSION CONTROL</span> - Git.</li>
         </ul>
       </div>
       <div class="col-md-6">
         <h5 class="sub-heading">EXPERIENCE WITH-</h5>
         <ul>
-          <li><div class="sub-sub-heading">FRONTEND</div> - AngularJS.</li>
+          <li><span class="sub-sub-heading">FRONTEND</span> - AngularJS.</li>
           <li>Python (3+, 2+).</li>
           <li>C, C++, Javascript, HTML.</li>
         </ul>
       </div>
     </div> 
   </div>
-  <div class="col-md-12 row" id="experience">
+  <div class="col-md-12 row resume-section" id="experience">
     <div class="col-md-4 heading">
       <h3>PROFESSIONAL EXPERIENCE</h3>
     </div>
-    <div class="col-md-8 detail"></div> 
+    <div class="col-md-8 detail">
+      <div id="ace">
+        <p class="date">AUGUST 2017 - PRESENT</p>
+        <h5 class="sub-heading">Calculation Engine</h5>
+        <p class="sub-sub-heading">CITIBANK SERVICES PVT. LTD., PUNE - ASST. MANAGER</p>
+        <ul class="text">  
+          <li>The team manages the counterparty credit RISK pricing of various assets for Citi. The portfolio wise numbers are generated for regulators and the higher management. The work consist of pricing more than four million trades per day across 1k simulation paths for 400+ tenor points.</li>
+          <li>Currently replacing IBM Symphony grid with AWS (managed via Openshift) to spawn process intensive task of pricing trades through 10k simulation paths. This will save millions of dollars a year of Symphony licences and H/W costs.</li>
+          <li>The work requires me to build Openshift libraries to handle pricers on AWS efficiently. This library works on launching multiple instances of the code per path for thousands of simulation paths across multiple AWS clusters, with automatic and dynamic scaling of the count of instances as per the requirement and request queue size. Currently enhancing the library to support various complexities of requests and failover scenarios.</li>
+          <li>Built Apache Kafka libraries in Java and Python for sending pricing requests to the cloud. The library handles multiple producers sending requests to topics with multiple consumers listening per topic. Currently working on TLS encryption for sending messages securely.</li>
+          <li>Planned and built a tool to extract, analyse and showcase crucial stats, and alerts in real-time about the different code runs across multiple boxes for different requests, using the logs, via ELK and X-pack. It saves hundreds of man hours which were spent searching through logs. Currently working on routing AWS logs from multiple pods across different nodes and across multiple clusters, to the stack.</li>
+        </ul>
+      </div>
+      <div id="rhubcore">
+        <p class="date">JANUARY 2017 - JULY 2017</p>
+        <h5 class="sub-heading">Calculation Engine</h5>
+        <p class="sub-sub-heading">CITIBANK SERVICES PVT. LTD., PUNE - ASST. MANAGER</p>
+        <ul class="text">          
+        </ul>
+      </div>
+    </div> 
   </div>
-  <div class="col-md-12 row" id="education">
+  <div class="col-md-12 row resume-section" id="education">
     <div class="col-md-4 heading">
       <h3>EDUCATION</h3>
     </div>
     <div class="col-md-8 detail"></div> 
   </div>
-  <div class="col-md-12 row" id="responsibility">
+  <div class="col-md-12 row resume-section" id="responsibility">
     <div class="col-md-4 heading">
       <h3>POSITIONS OF RESPONSIBILITY</h3>
     </div>
     <div class="col-md-8 detail"></div> 
   </div>
-  <div class="col-md-12 row" id="achievements">
+  <div class="col-md-12 row resume-section" id="achievements">
     <div class="col-md-4 heading">
       <h3>ACHIEVEMENTS</h3>
     </div>
