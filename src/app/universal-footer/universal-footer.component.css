@@ -4,6 +4,12 @@
     padding: 1%;
 }
 
+.heading {
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
 .social-media-options {
     padding: 1% 2%;
     text-align: center;
