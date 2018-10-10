@@ -21,6 +21,8 @@ import { ContactMeComponent } from './universal-content/home/contact-me/contact-
 import { CodeComponent } from './universal-content/home/code/code.component';
 import { TeachComponent } from './universal-content/home/teach/teach.component';
 import { TravelComponent } from './universal-content/home/travel/travel.component';
+import { ResumeIntroductionComponent } from './universal-content/resume/resume-introduction/resume-introduction.component';
+import { ResumeDetailComponent } from './universal-content/resume/resume-detail/resume-detail.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { TravelComponent } from './universal-content/home/travel/travel.componen
     ContactMeComponent,
     CodeComponent,
     TeachComponent,
-    TravelComponent
+    TravelComponent,
+    ResumeIntroductionComponent,
+    ResumeDetailComponent,
   ],
   imports: [
     BrowserModule,
