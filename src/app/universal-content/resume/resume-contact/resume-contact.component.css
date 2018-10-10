@@ -1,0 +1,24 @@
+#resume-contact {
+    background: rgb(237, 236, 236);
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.header {
+    padding: 1% 5%;
+    font-weight: 500;
+}
+
+.button {
+    margin: 5% auto 1% auto;
+    border-style: solid;
+    padding: 2% 2%;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    border-color: black;
+    background: black;
+    color: white;
+}

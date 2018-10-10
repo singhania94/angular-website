@@ -23,6 +23,7 @@ import { TeachComponent } from './universal-content/home/teach/teach.component';
 import { TravelComponent } from './universal-content/home/travel/travel.component';
 import { ResumeIntroductionComponent } from './universal-content/resume/resume-introduction/resume-introduction.component';
 import { ResumeDetailComponent } from './universal-content/resume/resume-detail/resume-detail.component';
+import { ResumeContactComponent } from './universal-content/resume/resume-contact/resume-contact.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ResumeDetailComponent } from './universal-content/resume/resume-detail/
     TravelComponent,
     ResumeIntroductionComponent,
     ResumeDetailComponent,
+    ResumeContactComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+#resume-detail {
+    padding: 10%;
+}
+
+.heading {
+    text-align: right;
+}
+
+.sub-heading, .sub-sub-heading {
+    font-weight: 700;
+}
