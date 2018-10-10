@@ -23,6 +23,10 @@ import { ResumeDetailComponent } from './universal-content/resume/resume-detail/
 import { ResumeContactComponent } from './universal-content/resume/resume-contact/resume-contact.component';
 import { BlogComponent } from './universal-content/blog/blog.component';
 import { AboutComponent } from './universal-content/about/about.component';
+import { AboutIntroductionComponent } from './universal-content/about/about-introduction/about-introduction.component';
+import { AboutPhotoComponent } from './universal-content/about/about-photo/about-photo.component';
+import { AboutVideoComponent } from './universal-content/about/about-video/about-video.component';
+import { AboutDetailComponent } from './universal-content/about/about-detail/about-detail.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +48,10 @@ import { AboutComponent } from './universal-content/about/about.component';
     ResumeContactComponent,
     BlogComponent,
     AboutComponent,
+    AboutIntroductionComponent,
+    AboutPhotoComponent,
+    AboutVideoComponent,
+    AboutDetailComponent,
   ],
   imports: [
     BrowserModule,

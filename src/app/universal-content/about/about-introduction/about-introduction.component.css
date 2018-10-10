@@ -1,0 +1,16 @@
+#about-introduction {
+    background: black;
+    padding: 20% 5% 10%;
+    color: white;
+}
+
+.heading {
+    font-size: 400%;
+    font-weight: 900;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
