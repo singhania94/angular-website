@@ -1,7 +1,11 @@
 #about-videos {
     background-color: rgb(237, 236, 236);
     text-align: center;
-    padding: 5%;
+    padding: 8%;
+}
+
+.section {
+    padding: 5% 0%;
 }
 
 .video {
