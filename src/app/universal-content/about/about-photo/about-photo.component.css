@@ -1,0 +1,77 @@
+#about-photo {
+    text-align: center;
+    padding: 5%;
+}
+
+.title {
+    padding: 2%;
+}
+
+.col-sm-6,
+.col-md-3 {
+    padding: 1%;
+}
+
+.snap {
+    padding-top: 100%;
+}
+
+.one {
+    background: url('../../../../assets/img/photos/beach_edited.jpg');
+    background-size: cover;
+}
+
+.two {
+    background: url('../../../../assets/img/photos/presentation_edited.jpg');
+    background-size: cover;
+}
+
+.three {
+    background: url('../../../../assets/img/photos/bhutan_edited.jpg');
+    background-size: cover;
+}
+
+.four {
+    background: url('../../../../assets/img/photos/sleep_edited.jpg');
+    background-size: cover;
+}
+
+.five {
+    background: url('../../../../assets/img/photos/snow_edited.jpg');
+    background-size: cover;
+}
+
+.six {
+    background: url('../../../../assets/img/photos/gokart_edited.jpg');
+    background-size: cover;
+}
+
+.seven {
+    background: url('../../../../assets/img/photos/food_edited.jpg');
+    background-size: cover;
+}
+
+.eight {
+    background: url('../../../../assets/img/photos/dirtbike_edited.jpg');
+    background-size: cover;
+}
+
+.nine {
+    background: url('../../../../assets/img/photos/hyderabad_edited.jpg');
+    background-size: cover;
+}
+
+.ten {
+    background: url('../../../../assets/img/photos/nostalgia_edited.jpg');
+    background-size: cover;
+}
+
+.eleven {
+    background: url('../../../../assets/img/photos/train_edited.jpg');
+    background-size: cover;
+}
+
+.twelve {
+    background: url('../../../../assets/img/photos/charminar_edited.jpg');
+    background-size: cover;
+}
