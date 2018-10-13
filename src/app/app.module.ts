@@ -62,7 +62,8 @@ import { ContactMapComponent } from './universal-content/contact/contact-map/con
   imports: [
     BrowserModule,
     FormsModule,
-    UniversalRouterModule
+    UniversalRouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

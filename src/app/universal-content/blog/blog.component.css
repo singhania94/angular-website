@@ -1,0 +1,69 @@
+#blog {
+    text-align: center;
+}
+
+.heading {
+    background: rgb(237, 236, 236);
+    padding: 10%;
+}
+
+h1,
+h3,
+h5 {
+    font-weight: 900;
+}
+
+.sub-title {
+    font-weight: 700;
+}
+
+.sections {
+    padding: 5% 2%;
+}
+
+.section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.blogs {
+    padding: 2%;
+}
+
+.blog {
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+.tech-blog {
+    min-height: 600px;
+    max-height: 600px;
+}
+
+.snap {
+    margin: 1% 0%;
+    /*background: url("../../../assets/img/blogs/website.jpg");*/
+    background-size: cover;
+    padding-top: 100%;
+}
+
+.read-more {
+    text-align: right;
+}
+
+a {
+    border-style: solid;
+    border: white;
+    text-decoration: none;
+    color: black;
+    border-bottom: 10px;
+}
+
+a:hover {
+    background: black;
+    color: white;
+    border: black;
+}

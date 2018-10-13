@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 import { catchError, map, tap } from 'rxjs/operators';
 
 import { Post } from './post';
+import { TECH_POSTS } from './mock-posts';
+import { OTHER_POSTS } from './mock-posts';
 
 import { Observable, of } from 'rxjs';
 
@@ -17,6 +19,14 @@ export class PostService {
 
   constructor(private http: HttpClient) { }
 
+  getStaticTechBlogPosts(): Observable<Post[]> {
+    return of(TECH_POSTS);
+  }
+
+  getStaticContentWritingPosts(): Observable<Post[]> {
+    return of(OTHER_POSTS);
+  }
+  
   getTechBlogPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.techBlogPostsUrl);
       /*.pipe(catchError(this.handleError('getTechBlogPosts', [])));*/

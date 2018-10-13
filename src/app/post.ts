@@ -1,7 +1,8 @@
 export class Post {
+    id: number;
     imgUrl: string;
     category: string;
-    when: Date;
+    when: string;
     title: string;
     story: string;
 }
