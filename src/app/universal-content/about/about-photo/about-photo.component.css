@@ -13,7 +13,25 @@
 }
 
 .snap {
-    padding-top: 100%;
+    color: transparent;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+
+.snap:hover {
+    opacity: 0.8;
+    color: black;
+}
+
+p {
+    margin: 0% 5%;
+    opacity: 0.75;
+    padding: 5%;
+    font-weight: 900;
+}
+
+.snap:hover>p {
+    background: white;
 }
 
 .one {
