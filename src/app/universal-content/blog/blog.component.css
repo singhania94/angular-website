@@ -55,15 +55,21 @@ h5 {
 }
 
 a {
-    border-style: solid;
-    border: white;
     text-decoration: none;
     color: black;
+}
+
+.blog {
+    border-style: solid;
+    border: white;
     border-bottom: 10px;
 }
 
 a:hover {
-    background: black;
     color: white;
+}
+
+.blog:hover {
+    background: black;
     border: black;
 }

@@ -10,13 +10,15 @@
                 <p class="sub-title">I've been fortunate enough to work on mutiple technology stack across different domains in a short span. Here, I share some of the insights I've gained on these technologies. I also share some of my personal experiences.</p>
             </div>
             <div class="col-12 row blogs" *ngIf='techBlogs.length'>
-                <a *ngFor='let techblog of techBlogs' class="col-12 col-md-4 blog tech-blog" routerLink="/home">
-                    <!--style="background-image:url({{techblog.imgUrl}})"-->
-                    <div class="snap website" [ngStyle]="{'background-image': 'url(' + techblog.imgUrl + ')'}"></div>
-                    <h5 class="title">{{techblog.title}}</h5>
-                    <p class="sub-title">{{techblog.category | uppercase}} | {{techblog.when | uppercase}}</p>
-                    <p>{{techblog.story}}</p>
-                </a>
+                <div *ngFor='let techblog of techBlogs' class="col-12 col-md-4 blog tech-blog">
+                    <a routerLink={{techblog.id}}>
+                        <!--style="background-image:url({{techblog.imgUrl}})"-->
+                        <div class="snap website" [ngStyle]="{'background-image': 'url(' + techblog.imgUrl + ')'}"></div>
+                        <h5 class="title">{{techblog.title}}</h5>
+                        <p class="sub-title">{{techblog.category | uppercase}} | {{techblog.when | uppercase}}</p>
+                        <p>{{techblog.story}}</p>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="section">
