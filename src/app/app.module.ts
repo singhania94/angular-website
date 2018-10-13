@@ -27,6 +27,9 @@ import { AboutIntroductionComponent } from './universal-content/about/about-intr
 import { AboutPhotoComponent } from './universal-content/about/about-photo/about-photo.component';
 import { AboutVideoComponent } from './universal-content/about/about-video/about-video.component';
 import { AboutDetailComponent } from './universal-content/about/about-detail/about-detail.component';
+import { ContactIntroductionComponent } from './universal-content/contact/contact-introduction/contact-introduction.component';
+import { ContactFormComponent } from './universal-content/contact/contact-form/contact-form.component';
+import { ContactMapComponent } from './universal-content/contact/contact-map/contact-map.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +55,9 @@ import { AboutDetailComponent } from './universal-content/about/about-detail/abo
     AboutPhotoComponent,
     AboutVideoComponent,
     AboutDetailComponent,
+    ContactIntroductionComponent,
+    ContactFormComponent,
+    ContactMapComponent,
   ],
   imports: [
     BrowserModule,
