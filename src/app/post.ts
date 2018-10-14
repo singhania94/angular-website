@@ -1,8 +1,8 @@
 export class Post {
-    id: number;
-    imgUrl: string;
+    id: string;
     category: string;
     when: string;
     title: string;
     story: string;
+    imgUrl?: string;
 }
