@@ -21,7 +21,7 @@ export class BlogDetailComponent implements OnInit {
   techBlog: Post;
 
   getTechBlogById(id: string): void {
-    this.service.getStaticTechBlogPostById(id).subscribe(post => this.techBlog = post);
+    this.service.getStaticTechBlogPostById(id).subscribe((post: Post) => this.techBlog = post);
   }
 
 }

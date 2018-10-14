@@ -20,7 +20,7 @@ export class BlogComponent implements OnInit {
   otherBlogs: Post[];
 
   getBlogs(): void {
-    this.service.getStaticTechBlogPosts().subscribe(posts => this.techBlogs = posts);
-    this.service.getStaticContentWritingPosts().subscribe(posts => this.otherBlogs = posts);
+    this.service.getStaticTechBlogPosts().subscribe((posts: Post[]) => this.techBlogs = posts);
+    this.service.getStaticContentWritingPosts().subscribe((posts: Post[]) => this.otherBlogs = posts);
   }
 }

@@ -16,3 +16,17 @@ h5 {
 .text {
     padding-top: 5%;
 }
+
+.back {
+    margin: 5%;
+    border-style: solid;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.back:hover {
+    background-color: black;
+    color: white;
+}

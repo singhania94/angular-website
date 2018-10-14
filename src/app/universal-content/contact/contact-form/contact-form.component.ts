@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Query } from '../../../query';
+import { QueryService } from '../../../query.service';
 
 @Component({
   selector: 'app-contact-form',
@@ -8,15 +9,18 @@ import { Query } from '../../../query';
 })
 export class ContactFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: QueryService) { }
 
   ngOnInit() {
   }
 
-  query: Query = new Query(0, 'Aditya', 'Singhania', 'singhania.aditya94@gmail.com', 'How are you doing?', 7798898722);
+  query: Query = new Query('', '', '', '');
+  submittedQuery: Query;
   submitted = false;
 
   onSubmit() { 
+    this.service.postQuery(this.query)
+      .subscribe(query => this.submittedQuery = query);
     this.submitted = true; 
   }
 
