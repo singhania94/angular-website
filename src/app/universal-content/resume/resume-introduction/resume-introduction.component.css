@@ -26,6 +26,10 @@ h1 {
     font-size: 130%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .button {
     width: 50%;
     margin: 5% auto 2% auto;
