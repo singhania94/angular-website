@@ -1,0 +1,18 @@
+.snap {
+    background-size: cover;
+    padding-top: 40%;
+}
+
+.content {
+    padding: 5%;
+}
+
+h1,
+h5 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.text {
+    padding-top: 5%;
+}

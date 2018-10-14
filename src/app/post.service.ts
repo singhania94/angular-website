@@ -16,11 +16,18 @@ export class PostService {
   private endpoint: string = 'localhost:8080';
   private techBlogPostsUrl: string = this.endpoint + '/tech-blogs';
   private contentWritingPostsUrl: string = this.endpoint + '/content-writing';
+  private techBlogPostUrl: string = this.endpoint + '/tech-blog/'
 
   constructor(private http: HttpClient) { }
 
   getStaticTechBlogPosts(): Observable<Post[]> {
     return of(TECH_POSTS);
+  }
+
+  getStaticTechBlogPostById(id: string): Observable<Post> {
+    return of(TECH_POSTS.find(function(post: Post): boolean {
+      return post.id == id;
+    }));
   }
 
   getStaticContentWritingPosts(): Observable<Post[]> {
@@ -29,6 +36,11 @@ export class PostService {
   
   getTechBlogPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.techBlogPostsUrl);
+      /*.pipe(catchError(this.handleError('getTechBlogPosts', [])));*/
+  }
+
+  getTechBlogPostById(id: string): Observable<Post> {
+    return this.http.get<Post>(this.techBlogPostUrl + id);
       /*.pipe(catchError(this.handleError('getTechBlogPosts', [])));*/
   }
 

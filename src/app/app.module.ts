@@ -30,7 +30,7 @@ import { AboutDetailComponent } from './universal-content/about/about-detail/abo
 import { ContactIntroductionComponent } from './universal-content/contact/contact-introduction/contact-introduction.component';
 import { ContactFormComponent } from './universal-content/contact/contact-form/contact-form.component';
 import { ContactMapComponent } from './universal-content/contact/contact-map/contact-map.component';
-import { BlogDetailComponent } from './universal-content/blog/blog-detail/blog-detail.component';
+import { BlogDetailComponent } from './universal-content/blog-detail/blog-detail.component';
 import { UniversalNotFoundComponent } from './universal-not-found/universal-not-found.component';
 
 @NgModule({

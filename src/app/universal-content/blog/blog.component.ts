@@ -22,6 +22,5 @@ export class BlogComponent implements OnInit {
   getBlogs(): void {
     this.service.getStaticTechBlogPosts().subscribe(posts => this.techBlogs = posts);
     this.service.getStaticContentWritingPosts().subscribe(posts => this.otherBlogs = posts);
-
   }
 }

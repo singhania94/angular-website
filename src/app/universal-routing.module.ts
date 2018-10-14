@@ -6,7 +6,7 @@ import { ResumeComponent } from './universal-content/resume/resume.component';
 import { BlogComponent } from './universal-content/blog/blog.component';
 import { AboutComponent } from './universal-content/about/about.component';
 import { ContactComponent } from './universal-content/contact/contact.component';
-import { BlogDetailComponent } from './universal-content/blog/blog-detail/blog-detail.component';
+import { BlogDetailComponent } from './universal-content/blog-detail/blog-detail.component';
 import { UniversalNotFoundComponent } from './universal-not-found/universal-not-found.component';
 
 const routes: Routes = [

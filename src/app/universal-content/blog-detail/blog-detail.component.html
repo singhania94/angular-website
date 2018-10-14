@@ -1,0 +1,12 @@
+<div class="row" *ngIf='techBlog' id="blog">
+    <div class="col-12 snap" [ngStyle]="{'background-image': 'url(' + techBlog.imgUrl + ')'}"></div>
+    <div class="col-12 row content">
+        <div class="col-12 heading">
+            <h1>{{techBlog.title}}</h1>
+            <h5>{{techBlog.category | uppercase}} | {{techBlog.when | uppercase}}</h5>
+        </div>
+        <div class="col-12 text">
+            <p>{{techBlog.story}}</p>
+        </div>
+    </div>
+</div>
