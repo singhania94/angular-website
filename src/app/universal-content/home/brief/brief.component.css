@@ -7,10 +7,6 @@
     padding: 1%;
 }
 
-/*.content {
-    padding: 0% 10% 0% 10%;
-}*/
-
 .col-md-4 {
     padding: 1%;
 }
@@ -19,27 +15,13 @@ h5 {
     margin: 10% 10% 2% 10%;
     border-style: solid;
     padding: 4% 2% 4% 3%;
+    font-weight: 800;
 }
 
 .code,
 .teach,
 .travel {
-    padding: 80% 10% 10% 30%;
-}
-
-.code:hover {
-    background: url('../../../../assets/img/coding_edited_bw-reduced.jpg');
-    background-size: cover;
-}
-
-.teach:hover {
-    background: url('../../../../assets/img/teach_edited_bw-reduced.jpg');
-    background-size: cover;
-}
-
-.travel:hover {
-    background: url('../../../../assets/img/travel_edited_bw-reduced.jpg');
-    background-size: cover;
+    padding: 80% 10% 10% 40%;
 }
 
 .code {
@@ -47,16 +29,16 @@ h5 {
     background-size: cover;
 }
 
-.code:hover h3 {
+.code:hover p {
     opacity: 1;
 }
 
 .teach {
-    background: url('../../../../assets/img/teach_edited-reduced.jpg');
+    background: url('../../../../assets/img/beat_edited.jpg');
     background-size: cover;
 }
 
-.teach:hover h3 {
+.teach:hover p {
     opacity: 1;
 }
 
@@ -65,18 +47,33 @@ h5 {
     background-size: cover;
 }
 
-.travel:hover h3 {
+.travel:hover p {
     opacity: 1;
+}
+
+.code:hover {
+    background: url('../../../../assets/img/coding_edited_bw-reduced.jpg');
+    background-size: cover;
+}
+
+.teach:hover {
+    background: url('../../../../assets/img/beat_edited_bw.jpg');
+    background-size: cover;
+}
+
+.travel:hover {
+    background: url('../../../../assets/img/travel_edited_bw-reduced.jpg');
+    background-size: cover;
+}
+
+p {
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 2%;
+    color: black;
+    font-weight: 900;
 }
 
 a {
     text-decoration: none;
-}
-
-h3 {
-    opacity: 0;
-    border-style: solid;
-    padding: 2%;
-    color: black;
-    background: rgba(255, 255, 255, 0.25);
 }

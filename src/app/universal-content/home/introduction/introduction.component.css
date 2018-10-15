@@ -8,13 +8,10 @@
     padding: 400px 5% 5% 5%;
 }
 
-.black-box {
-    /*border-style: solid;
-    border-color: white;*/
+.intro-box {
     background: rgba(0, 0, 0, 0.60);
     text-align: center;
     color: white;
-    margin: 10% auto 3% auto;
     padding: 2%;
 }
 
