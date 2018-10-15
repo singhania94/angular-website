@@ -7,6 +7,10 @@
     padding: 1%;
 }
 
+h1 {
+    font-weight: 700;
+}
+
 .col-md-4 {
     padding: 1%;
 }

@@ -4,30 +4,29 @@
     background-size: cover;
     background-position-x: left;
     background-position-y: bottom;
-    padding: 250px 10% 200px 10%;
+    padding: 250px 10% 10% 10%;
     color: white;
     text-align: center;
 }
 
-.black-box {
+.intro-box {
+    margin-left: auto;
+    margin-right: 0%;
     padding: 2%;
     background: rgba(0, 0, 0, 0.6)
 }
 
-h1 {
-    padding: 1% 2% 3% 2%;
-    font-weight: 700;
-    font-size: 400%;
-}
-
 .text {
     margin: 0%;
-    padding: 2% 2% 1% 2%;
+    padding: 2% 2% 0% 2%;
+    font-weight: 900;
     font-size: 130%;
 }
 
-a {
-    text-decoration: none;
+.header {
+    padding: 1% 2% 2% 2%;
+    font-weight: 700;
+    font-size: 400%;
 }
 
 .button {
@@ -37,6 +36,7 @@ a {
     padding: 3% 3% 3% 3%;
     text-decoration: none;
     color: white;
+    font-weight: 900;
 }
 
 .button:hover {
@@ -44,4 +44,8 @@ a {
     border-color: white;
     background: white;
     color: black;
+}
+
+h5 {
+    font-weight: 900;
 }

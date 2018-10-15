@@ -9,6 +9,10 @@
     font-weight: 500;
 }
 
+h3 {
+    font-weight: 700;
+}
+
 .button {
     margin: 5% auto 1% auto;
     border-style: solid;
@@ -21,4 +25,8 @@
     border-color: black;
     background: black;
     color: white;
+}
+
+h5 {
+    font-weight: 900;
 }
