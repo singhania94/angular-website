@@ -8,6 +8,10 @@
     padding-bottom: 5%;
 }
 
+h1 {
+    font-weight: 900;
+}
+
 *:focus {
     box-shadow: none;
     border-color: black;

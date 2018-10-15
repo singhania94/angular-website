@@ -1,11 +1,6 @@
-#contact-map {
-    background: white;
-    padding: 5%;
-}
-
 .map {
     position: relative;
-    padding-bottom: 60%;
+    padding-bottom: 400px;
     height: 0;
 }
 

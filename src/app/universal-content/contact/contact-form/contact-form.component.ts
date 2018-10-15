@@ -15,13 +15,22 @@ export class ContactFormComponent implements OnInit {
   }
 
   query: Query = new Query('', '', '', '');
+  beingSubmitted = false;
   submittedQuery: Query;
   submitted = false;
 
-  onSubmit() { 
+  onSubmit() {
+    this.beingSubmitted = true;
+
     this.service.postQuery(this.query)
       .subscribe(query => this.submittedQuery = query);
-    this.submitted = true; 
+    
+      /*while(this.submitted == false) {
+      if (this.submittedQuery == this.query) {
+        this.beingSubmitted = false;  
+        this.submitted = true; 
+      }
+    }*/
   }
 
 }
