@@ -25,6 +25,7 @@ export class BlogDetailComponent implements OnInit {
     if(!this.techBlog) {
       this.router.navigate(['/not_found']);
     }
+    // '../../../assets/img/blogs/' + post['imgUrl'] + '_edited-reduced.jpg',
   }
 
 }

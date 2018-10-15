@@ -4,7 +4,7 @@
 
 .heading {
     background: rgb(237, 236, 236);
-    padding: 25% 10% 10% 10%;
+    padding: 250px 10% 100px 10%;
 }
 
 h1,
@@ -14,6 +14,7 @@ h5 {
 }
 
 .sub-title {
+    padding: 0% 10%;
     font-weight: 700;
 }
 
@@ -31,16 +32,9 @@ h5 {
 }
 
 .blog {
-    overflow: hidden;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 1%;
-    padding-bottom: 2%;
-}
-
-.tech-blog {
-    min-height: 600px;
-    max-height: 600px;
 }
 
 .snap {
@@ -50,26 +44,13 @@ h5 {
     padding-top: 100%;
 }
 
-.read-more {
-    text-align: right;
+.tech-blog:hover {
+    background: black;
+    border: black;
+    color: white;
 }
 
 a {
     text-decoration: none;
     color: black;
-}
-
-.blog {
-    border-style: solid;
-    border: white;
-    border-bottom: 10px;
-}
-
-a:hover {
-    color: white;
-}
-
-.tech-blog:hover {
-    background: black;
-    border: black;
 }

@@ -21,6 +21,7 @@ export class BlogComponent implements OnInit {
 
   getBlogs(): void {
     this.service.getStaticTechBlogPosts().subscribe((posts: Post[]) => this.techBlogs = posts);
+    //this.techBlogs.forEach(techBlog => techBlog.imgUrl = '../../../assets/img/blogs/' + techBlog.imgUrl + '_bw-reduced.jpg');
     this.service.getStaticContentWritingPosts().subscribe((posts: Post[]) => this.otherBlogs = posts);
   }
 }
