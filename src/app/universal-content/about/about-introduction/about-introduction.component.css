@@ -1,6 +1,6 @@
 #about-introduction {
     background: black;
-    padding: 25% 5% 10%;
+    padding: 150px 5% 100px 5%;
     color: white;
 }
 
@@ -12,5 +12,6 @@
 
 a {
     text-decoration: none;
-    color: rebeccapurple;
+    color: rgb(111, 111, 111);
+    font-weight: 900;
 }
