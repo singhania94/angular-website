@@ -16,7 +16,7 @@ export class PostService {
   private endpoint: string = 'localhost:8080';
   private techBlogPostsUrl: string = this.endpoint + '/tech-blogs';
   private contentWritingPostsUrl: string = this.endpoint + '/content-writing';
-  private techBlogPostUrl: string = this.endpoint + '/tech-blog/'
+  private techBlogPostUrl: string = this.endpoint + '/tech-blog/';
 
   constructor(private http: HttpClient) { }
 

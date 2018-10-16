@@ -10,6 +10,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class BlogDetailComponent implements OnInit {
 
+  techBlog: Post;
+
   constructor(private router: Router, private route: ActivatedRoute, private service: PostService) { }
 
   ngOnInit() {
@@ -18,14 +20,11 @@ export class BlogDetailComponent implements OnInit {
     });
   }
 
-  techBlog: Post;
-
   getTechBlogById(id: string): void {
     this.service.getStaticTechBlogPostById(id).subscribe((post: Post) => this.techBlog = post);
-    if(!this.techBlog) {
+    if (!this.techBlog) {
       this.router.navigate(['/not_found']);
     }
-    // '../../../assets/img/blogs/' + post['imgUrl'] + '_edited-reduced.jpg',
   }
 
 }
