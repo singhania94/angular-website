@@ -31,7 +31,7 @@ export class PostService {
   }
 
   getStaticTechBlogPostStoryById(file: string) {
-    return this.http.get('' + file)
+    return this.http.get('../assets/data/' + file);
   }
   
   getTechBlogPosts(): Observable<Post[]> {
