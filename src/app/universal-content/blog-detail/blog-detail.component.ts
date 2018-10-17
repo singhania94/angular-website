@@ -11,7 +11,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class BlogDetailComponent implements OnInit {
 
   techBlog: Post;
-  story: string;
+  storyParas: string[];
 
   constructor(private router: Router, private route: ActivatedRoute, private service: PostService) { }
 
@@ -28,7 +28,7 @@ export class BlogDetailComponent implements OnInit {
     }
     this.service.getStaticTechBlogPostStoryById(this.techBlog.story)
       .subscribe((data: any) => {
-        this.story = data.story;
+        this.storyParas = data.story;
       }
     );
 }

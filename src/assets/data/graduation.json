@@ -1,4 +1,4 @@
 {
     "id": "graduation",
-    "story": "Hi graduation"
+    "story": ["Hi graduation", "another hi"]
 }
