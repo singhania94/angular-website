@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-code',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./code.component.css']
 })
 export class CodeComponent implements OnInit {
+
+  private fragment: string;
 
   constructor() { }
 

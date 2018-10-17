@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-brief',
@@ -12,4 +13,24 @@ export class BriefComponent implements OnInit {
   ngOnInit() {
   }
 
+  gotoCode(): void {
+    try {
+      document.querySelector('#homecode').scrollTo();
+      window.location.reload();
+    } catch (e) { }
+  }
+
+  gotoTeach(): void {
+    try {
+      document.querySelector('#hometeach').scrollTo();
+      window.location.reload();
+    } catch (e) { }
+  }
+
+  gotoTravel(): void {
+    try {
+      document.querySelector('#hometravel').scrollTo();
+      window.location.reload();
+    } catch (e) { }
+  }
 }
