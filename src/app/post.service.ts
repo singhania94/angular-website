@@ -30,12 +30,17 @@ export class PostService {
     }));
   }
 
-  getStaticContentWritingPosts(): Observable<Post[]> {
-    return of(OTHER_POSTS);
+  getStaticTechBlogPostStoryById(file: string) {
+    return this.http.get('' + file)
   }
   
   getTechBlogPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.techBlogPostsUrl)
+      .pipe(retry(3), catchError(this.handleError));
+  }
+
+  getTechBlogPostById(id: string): Observable<Post> {
+    return this.http.get<Post>(this.techBlogPostUrl + id)
       .pipe(retry(3), catchError(this.handleError));
   }
   
@@ -43,10 +48,9 @@ export class PostService {
     return this.http.get<Post[]>(
       this.techBlogPostsUrl, { observe: 'response' });
   }
-
-  getTechBlogPostById(id: string): Observable<Post> {
-    return this.http.get<Post>(this.techBlogPostUrl + id)
-      .pipe(retry(3), catchError(this.handleError));
+  
+  getStaticContentWritingPosts(): Observable<Post[]> {
+    return of(OTHER_POSTS);
   }
 
   getContentWritingPosts(): Observable<Post[]> {
