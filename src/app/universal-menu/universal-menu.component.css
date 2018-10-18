@@ -12,6 +12,7 @@
 }
 
 .logo-img {
+    transition: 0.5s;
     background-image: url("../../assets/img/logo_AS_edit.png");
     background-size: cover;
     height: 90px;
