@@ -1,4 +1,4 @@
-#resume-intro {
+#intro {
     width: 100%;
     background: url('../../../../assets/img/resume_bg_edited.jpg');
     background-size: cover;
@@ -30,6 +30,7 @@
 }
 
 .button {
+    transition: 1s;
     width: 50%;
     margin: 5% auto 2% auto;
     border-style: solid;

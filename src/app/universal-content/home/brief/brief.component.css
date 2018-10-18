@@ -25,7 +25,9 @@ h5 {
 .code,
 .teach,
 .travel {
+    transition: 0.5s;
     padding: 80% 10% 10% 40%;
+    cursor: pointer;
 }
 
 .code {
@@ -56,18 +58,18 @@ h5 {
 }
 
 .code:hover {
-    background: url('../../../../assets/img/coding_edited_bw-reduced.jpg');
-    background-size: cover;
+    filter: grayscale(100%);
+    /*background: url('../../../../assets/img/coding_edited_bw-reduced.jpg');*/
 }
 
 .teach:hover {
-    background: url('../../../../assets/img/beat_edited_bw.jpg');
-    background-size: cover;
+    filter: grayscale(100%);
+    /*background: url('../../../../assets/img/beat_edited_bw.jpg');*/
 }
 
 .travel:hover {
-    background: url('../../../../assets/img/travel_edited_bw-reduced.jpg');
-    background-size: cover;
+    filter: grayscale(100%);
+    /*background: url('../../../../assets/img/travel_edited_bw-reduced.jpg');*/
 }
 
 p {
@@ -76,6 +78,7 @@ p {
     padding: 2%;
     color: black;
     font-weight: 900;
+    transition: 1s;
 }
 
 a {

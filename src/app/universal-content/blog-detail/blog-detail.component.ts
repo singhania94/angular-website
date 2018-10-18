@@ -10,6 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class BlogDetailComponent implements OnInit {
 
+  private fragment: string;
   techBlog: Post;
   storyParas: string[];
 
@@ -19,8 +20,17 @@ export class BlogDetailComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.getTechBlogById('/blog/' + params.id);
     });
+    this.route.fragment.subscribe(fragment => { this.fragment = fragment; });
   }
 
+  ngAfterViewInit(): void {
+    try {
+      if(!this.fragment)
+        document.querySelector('#intro')
+          .scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    } catch (e) { }
+  }
+  
   getTechBlogById(id: string): void {
     this.service.getStaticTechBlogPostById(id).subscribe((post: Post) => this.techBlog = post);
     if (!this.techBlog) {

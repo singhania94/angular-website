@@ -17,6 +17,7 @@ hr {
 
 .canvas {
     background: url('../../../../assets/img/home-brief-learn_edited-reduced.jpg');
+    background-attachment: fixed;
     background-size: cover;
     padding: 2%;
 }
@@ -27,14 +28,33 @@ hr {
     color: black;
 }
 
-h5 {
-    /*border-style: solid;*/
+.text {
     padding: 5%;
-    background: rgba(255, 255, 255, 0.40);
-    font-weight: 700;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 a {
     text-decoration: none;
     color: green;
+}
+
+.button {
+    transition: 1s;
+    border-style: solid;
+    border-color: black;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+}
+
+.button-text {
+    font-weight: 900;
+    padding: 5%;
+}
+
+.button:hover {
+    border-color: black;
+    background: black;
+    color: white;
 }

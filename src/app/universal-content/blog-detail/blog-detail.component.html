@@ -1,4 +1,4 @@
-<div class="row" *ngIf='techBlog' id="blog">
+<div class="row" *ngIf='techBlog' id="intro">
     <div class="col-12 snap" [ngStyle]="{'background-image': 'url(../../../assets/img/blogs/' + techBlog.imgUrl + '_edited-reduced.jpg)'}"></div>
     <div class="col-12 row content">
         <div class="col-12 heading">
@@ -15,3 +15,4 @@
         <a class="back col-6 col-sm-4 col-md-3" routerLink="/blogs">Go Back</a>
     </div>
 </div>
+<app-universal-footer></app-universal-footer>

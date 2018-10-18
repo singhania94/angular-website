@@ -11,12 +11,14 @@
     padding: 0% 0%;
 }
 
-img {
+.logo-img {
+    background-image: url("../../assets/img/logo_AS_edit.png");
+    background-size: cover;
     height: 90px;
     width: 130px;
 }
 
-img:hover {
+.logo-img:hover {
     opacity: 0.75;
 }
 
@@ -48,6 +50,7 @@ img:hover {
 }
 
 .menu-option {
+    transition: 1s;
     position: relative;
     float: right;
     margin: auto 1%;

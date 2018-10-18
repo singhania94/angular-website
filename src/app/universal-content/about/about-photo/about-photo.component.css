@@ -13,6 +13,7 @@
 }
 
 .snap {
+    transition: 1s;
     color: transparent;
     padding-top: 40%;
     padding-bottom: 40%;

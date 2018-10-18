@@ -36,7 +36,16 @@ hr {
     font-weight: 900;
 }
 
+h3 {
+    font-weight: 900;
+}
+
+.button {
+    transition: 1s;
+}
+
 .button:hover {
+    border-color: black;
     background: black;
     color: white;
 }
@@ -46,6 +55,7 @@ a {
     color: rgb(169, 34, 34);
 }
 
-h3 {
+h5 {
+    font-weight: 900;
     text-align: center;
 }

@@ -9,6 +9,7 @@
 }
 
 .button {
+    transition: 1s;
     margin: 5% auto 1% auto;
     border-style: solid;
     padding: 2% 2%;

@@ -15,22 +15,22 @@ export class BriefComponent implements OnInit {
 
   gotoCode(): void {
     try {
-      document.querySelector('#homecode').scrollTo();
-      window.location.reload();
+      document.querySelector('#homecode').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+      //window.location.reload();
     } catch (e) { }
   }
 
   gotoTeach(): void {
     try {
-      document.querySelector('#hometeach').scrollTo();
-      window.location.reload();
+      document.querySelector('#hometeach').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+      //window.location.reload();
     } catch (e) { }
   }
 
   gotoTravel(): void {
     try {
-      document.querySelector('#hometravel').scrollTo();
-      window.location.reload();
+      document.querySelector('#hometravel').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+      //window.location.reload();
     } catch (e) { }
   }
 }

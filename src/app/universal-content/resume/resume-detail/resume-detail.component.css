@@ -39,6 +39,10 @@ h3 {
     font-weight: 700;
 }
 
+li {
+    justify-content: stretch;
+}
+
 .res-text {
     padding: 0% 1%;
 }
