@@ -1,6 +1,6 @@
 #intro {
     width: 100%;
-    background: url('../../../../assets/img/home_intro_bg-edited-bw-edited-cropped-reduced.jpg');
+    background: url('/assets/img/home-intro.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;

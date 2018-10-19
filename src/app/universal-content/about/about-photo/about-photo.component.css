@@ -36,61 +36,61 @@ p {
 }
 
 .one {
-    background: url('../../../../assets/img/photos/beach_edited-reduced.jpg');
+    background: url('/assets/img/photos-beach.jpg');
     background-size: cover;
 }
 
 .two {
-    background: url('../../../../assets/img/photos/presentation_edited.jpg');
+    background: url('/assets/img/photos-presentation.jpg');
     background-size: cover;
 }
 
 .three {
-    background: url('../../../../assets/img/photos/bhutan_edited-reduced.jpg');
+    background: url('/assets/img/photos-bhutan.jpg');
     background-size: cover;
 }
 
 .four {
-    background: url('../../../../assets/img/photos/sleep_edited.jpg');
+    background: url('/assets/img/photos-sleep.jpg');
     background-size: cover;
 }
 
 .five {
-    background: url('../../../../assets/img/photos/snow_edited-reduced.jpg');
+    background: url('/assets/img/photos-snow.jpg');
     background-size: cover;
 }
 
 .six {
-    background: url('../../../../assets/img/photos/gokart_edited-reduced.jpg');
+    background: url('/assets/img/photos-gokart.jpg');
     background-size: cover;
 }
 
 .seven {
-    background: url('../../../../assets/img/photos/food_edited-reduced.jpg');
+    background: url('/assets/img/photos-food.jpg');
     background-size: cover;
 }
 
 .eight {
-    background: url('../../../../assets/img/photos/dirtbike_edited-reduced.jpg');
+    background: url('/assets/img/photos-dirtbike.jpg');
     background-size: cover;
 }
 
 .nine {
-    background: url('../../../../assets/img/photos/hyderabad_edited-reduced.jpg');
+    background: url('/assets/img/photos-hyderabad.jpg');
     background-size: cover;
 }
 
 .ten {
-    background: url('../../../../assets/img/photos/tigers_edited-reduced.jpg');
+    background: url('/assets/img/photos-tigers.jpg');
     background-size: cover;
 }
 
 .eleven {
-    background: url('../../../../assets/img/photos/train_edited-reduced.jpg');
+    background: url('/assets/img/photos-train.jpg');
     background-size: cover;
 }
 
 .twelve {
-    background: url('../../../../assets/img/photos/charminar_edited-reduced.jpg');
+    background: url('/assets/img/photos-charminar.jpg');
     background-size: cover;
 }

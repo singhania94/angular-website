@@ -29,6 +29,6 @@ a {
 }
 
 .map {
-    background: url('../../../../assets/img/home-brief-travel-metro_edited-reduced.jpg');
+    background: url('/assets/img/home-travel.jpg');
     background-size: cover;
 }

@@ -13,7 +13,7 @@
             <div class="col-12 row blogs" *ngIf='techBlogs.length'>
                 <a *ngFor='let techblog of techBlogs' class="col-12 col-md-4 blog tech-blog" routerLink={{techblog.id}}>
                     <!--style="background-image:url({{techblog.imgUrl}})"-->
-                    <div class="snap website" [ngStyle]="{'background-image': 'url(../../../assets/img/blogs/' + techblog.imgUrl + '_bw-reduced.jpg)'}"></div>
+                    <div class="snap website" [ngStyle]="{'background-image': 'url(/assets/img/' + techblog.imgUrl + '-bw.jpg)'}"></div>
                     <h5 class="title">{{techblog.title}}</h5>
                     <p class="sub-title">{{techblog.category | uppercase}} | {{techblog.when | uppercase}}</p>
                 </a>

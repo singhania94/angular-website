@@ -1,12 +1,12 @@
 import { Post } from './post';
 
 export const TECH_POSTS: Post[] = [
-    {id:'/blog/website', imgUrl:'website', category:'decision', when: 'October, 2018', title:'Why I decided to create a personal website', story:"website.json"},
-    {id:'/blog/graduation', imgUrl:'graduation', category:'experience', when: 'October, 2018', title:'Graduating from VNIT, Nagpur', story:"graduation.json"},
-    {id:'/blog/messaging', imgUrl:'messaging', category:'technology', when: 'October, 2018', title:'Apache Kafka as a Messaging Service', story:"messaging.json"},
-    {id:'/blog/business', imgUrl:'business', category:'bussiness', when: 'October, 2018', title:'Puzzle Pieces in Bussiness Applications', story:"business.json"},
-    {id:'/blog/jagriti', imgUrl:'jagriti', category:'experience', when: 'October, 2018', title:'Jagriti Yatra', story:"jagriti.json"},
-    {id:'/blog/mad', imgUrl:'mad', category:'experience', when: 'October, 2018', title:'Life at Make A Difference', story:"mad.json"},
+    {id:'/blog/website', imgUrl:'blog-website', category:'decision', when: 'October, 2018', title:'Why I decided to create a personal website', story:"website.json"},
+    {id:'/blog/graduation', imgUrl:'blog-graduation', category:'experience', when: 'October, 2018', title:'Graduating from VNIT, Nagpur', story:"graduation.json"},
+    {id:'/blog/messaging', imgUrl:'blog-messaging', category:'technology', when: 'October, 2018', title:'Apache Kafka as a Messaging Service', story:"messaging.json"},
+    {id:'/blog/business', imgUrl:'blog-business', category:'bussiness', when: 'October, 2018', title:'Puzzle Pieces in Bussiness Applications', story:"business.json"},
+    {id:'/blog/jagriti', imgUrl:'blog-jagriti', category:'experience', when: 'October, 2018', title:'Jagriti Yatra', story:"jagriti.json"},
+    {id:'/blog/mad', imgUrl:'blog-mad', category:'experience', when: 'October, 2018', title:'Life at Make A Difference', story:"mad.json"},
 ];
 export const OTHER_POSTS: Post[] = [
     /*{imgUrl:'none', category:'Family', when: 'August, 2017', title:'Love', story:'She asked her what she could do for her love. While all she could do was still fall in love.'},*/

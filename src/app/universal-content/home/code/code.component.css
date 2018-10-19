@@ -18,7 +18,7 @@ hr {
 
 .title {
     padding: 10% 4%;
-    background: url('../../../../assets/img/home-brief-code_edited-reduced.jpg');
+    background: url('/assets/img/home-code.jpg');
     background-size: cover;
     background-position-y: bottom;
     color: white;

@@ -31,7 +31,7 @@ h5 {
 }
 
 .code {
-    background: url('../../../../assets/img/coding_edited-reduced.jpg');
+    background: url('/assets/img/home-coding.jpg');
     background-size: cover;
 }
 
@@ -40,7 +40,7 @@ h5 {
 }
 
 .teach {
-    background: url('../../../../assets/img/beat_edited.jpg');
+    background: url('/assets/img/home-learning.jpg');
     background-size: cover;
 }
 
@@ -49,7 +49,7 @@ h5 {
 }
 
 .travel {
-    background: url('../../../../assets/img/travel_edited-reduced.jpg');
+    background: url('/assets/img/home-travelling.jpg');
     background-size: cover;
 }
 
