@@ -3,9 +3,9 @@ import { Post } from './post';
 export const TECH_POSTS: Post[] = [
     {id:'/blog/website', imgUrl:'blog-website', category:'decision', when: 'October, 2018', title:'Why I decided to create a personal website', story:"website.json"},
     {id:'/blog/graduation', imgUrl:'blog-graduation', category:'experience', when: 'October, 2018', title:'Graduating from VNIT, Nagpur', story:"graduation.json"},
-    {id:'/blog/messaging', imgUrl:'blog-messaging', category:'technology', when: 'October, 2018', title:'Apache Kafka as a Messaging Service', story:"messaging.json"},
-    {id:'/blog/business', imgUrl:'blog-business', category:'bussiness', when: 'October, 2018', title:'Puzzle Pieces in Bussiness Applications', story:"business.json"},
-    {id:'/blog/jagriti', imgUrl:'blog-jagriti', category:'experience', when: 'October, 2018', title:'Jagriti Yatra', story:"jagriti.json"},
+    /*{id:'/blog/messaging', imgUrl:'blog-messaging', category:'technology', when: 'October, 2018', title:'Apache Kafka as a Messaging Service', story:"messaging.json"},*/
+    /*{id:'/blog/business', imgUrl:'blog-business', category:'bussiness', when: 'October, 2018', title:'Puzzle Pieces in Bussiness Applications', story:"business.json"},*/
+    /*{id:'/blog/jagriti', imgUrl:'blog-jagriti', category:'experience', when: 'October, 2018', title:'Jagriti Yatra', story:"jagriti.json"},*/
     {id:'/blog/mad', imgUrl:'blog-mad', category:'experience', when: 'October, 2018', title:'Life at Make A Difference', story:"mad.json"},
 ];
 export const OTHER_POSTS: Post[] = [
