@@ -10,6 +10,12 @@
     color: white;
 }
 
+h3,
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+}
+
 .social-media-options {
     padding: 1% 2%;
     text-align: center;
