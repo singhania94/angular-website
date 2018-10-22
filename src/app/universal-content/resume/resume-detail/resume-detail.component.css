@@ -11,6 +11,11 @@
     padding: 1%;
 }
 
+.sub-detail {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 h3 {
     font-weight: 900;
 }
