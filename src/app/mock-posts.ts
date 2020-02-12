@@ -22,5 +22,6 @@ export const OTHER_POSTS: Post[] = [
     /*{imgUrl:'none', category:'', when: 'September, 2015', title:'', story:"She was eve-teased. Frustrated, she slapped him. All the suspicious eyes around started to stare him. Though she had slapped the wrong guy, he was glad she slapped."},*/
     {id:'/story/9', category:'Thoughts', when: 'September, 2015', title:'Hate', story:"He kept a mental note of all the wrong he thought people did to him. He believed vengeance kept him alive, what he didn't realise was that it also burnt him alive., every hour of every day, every second."},
     {id:'/story/10', category:'Love', when: 'August, 2017', title:'377', story:'She asked her what she could do for her love. While all she could do was still fall in love.'},
+    {id:'/story/11', category:'Love', when: 'February, 2020', title:'Arranged Love', story:'She was the best thing that happened to him. He was the perfect gentleman. Been together 8 years, they\'d never known how to live except with each other. Too bad, she worshipped the moon and he, the sun. Love was going to lose once again.'},
 ];
 
