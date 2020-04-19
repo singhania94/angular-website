@@ -5,4 +5,5 @@ export class Post {
     title: string;
     story: string;
     imgUrl?: string;
+    dedication?: string;
 }

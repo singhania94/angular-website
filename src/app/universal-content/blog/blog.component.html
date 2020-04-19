@@ -5,14 +5,13 @@
     </div>
     <div class="row sections">
         <div class="section">
-            <div class="col-12 section-heading" *ngIf='techBlogs.length'>
+            <div class="col-10 offset-1 section-heading" *ngIf='techBlogs.length'>
                 <h3>Blogs</h3>
                 <p class="sub-title">I've been fortunate enough to work on mutiple technology stacks across varied domains in a short span. Here, I share some of the insights I've gained on these technologies. I also share some content inspired from my personal experiences
                     and everything around me.</p>
             </div>
             <div class="col-12 row blogs" *ngIf='techBlogs.length'>
                 <a *ngFor='let techblog of techBlogs' class="col-12 col-md-4 blog tech-blog" routerLink={{techblog.id}}>
-                    <!--style="background-image:url({{techblog.imgUrl}})"-->
                     <div class="snap website" [ngStyle]="{'background-image': 'url(/assets/img/' + techblog.imgUrl + '-bw.jpg)'}"></div>
                     <h5 class="title">{{techblog.title}}</h5>
                     <p class="sub-title">{{techblog.category | uppercase}} | {{techblog.when | uppercase}}</p>
@@ -20,19 +19,20 @@
             </div>
         </div>
         <div class="section" id="short-stories">
-            <div class="col-12 section-heading" *ngIf='otherBlogs.length'>
+            <div class="col-10 offset-1 section-heading" *ngIf='otherBlogs.length'>
                 <h3>Short Stories</h3>
                 <p class="sub-title">It's said a pen is mightier than the sword. This is my attempt to pen down my thoughts and perspectives that I've gained over the years. The short stories are inspired by the things that happen around me or the things I've seen. They talk
                     about a variety of subjects.</p>
             </div>
-            <div class="col-12 row blogs" *ngIf='otherBlogs.length'>
+            <div class="offset-md-1 col-md-11 col-sm-12 row-10 blogs" *ngIf='otherBlogs.length'>
                 <div *ngFor='let otherblog of otherBlogs' class="col-12 row blog">
                     <div class="col-md-3">
                         <h5 class="title">{{otherblog.title}}</h5>
                         <p class="sub-title">{{otherblog.category | uppercase}} | {{otherblog.when | uppercase}}</p>
                     </div>
-                    <div class="col-md-9 story">
+                    <div class="col-md-6 offset-md-1 story">
                         <p>{{otherblog.story}}</p>
+                        <p><i>{{otherblog.dedication}}</i></p>
                     </div>
                 </div>
             </div>
