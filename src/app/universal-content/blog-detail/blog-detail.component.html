@@ -5,7 +5,7 @@
             <h1>{{techBlog.title}}</h1>
             <h5>{{techBlog.category | uppercase}} | {{techBlog.when | uppercase}}</h5>
         </div>
-        <div class="col-12 text">
+        <div class="col-md-8 offset-md-2 col-sm-12 text">
             <div *ngFor='let storyPara of storyParas'>
                 <p>{{storyPara}}</p>
             </div>
