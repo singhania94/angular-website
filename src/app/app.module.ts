@@ -6,6 +6,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { UniversalRouterModule } from './universal-routing.module';
 
+import { ReversePipe } from './reverse.pipe';
+
 import { AppComponent } from './app.component';
 import { UniversalMenuComponent } from './universal-menu/universal-menu.component';
 import { UniversalFooterComponent } from './universal-footer/universal-footer.component';
@@ -63,6 +65,7 @@ import { UniversalNotFoundComponent } from './universal-not-found/universal-not-
     ContactMapComponent,
     BlogDetailComponent,
     UniversalNotFoundComponent,
+    ReversePipe,
   ],
   imports: [
     BrowserModule,

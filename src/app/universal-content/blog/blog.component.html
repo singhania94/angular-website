@@ -11,7 +11,7 @@
                     and everything around me.</p>
             </div>
             <div class="col-12 row blogs" *ngIf='techBlogs.length'>
-                <a *ngFor='let techblog of techBlogs' class="col-12 col-md-4 blog tech-blog" routerLink={{techblog.id}}>
+                <a *ngFor='let techblog of techBlogs | reverse' class="col-12 col-md-4 blog tech-blog" routerLink={{techblog.id}}>
                     <div class="snap website" [ngStyle]="{'background-image': 'url(/assets/img/' + techblog.imgUrl + '-bw.jpg)'}"></div>
                     <h5 class="title">{{techblog.title}}</h5>
                     <p class="sub-title">{{techblog.category | uppercase}} | {{techblog.when | uppercase}}</p>
@@ -25,7 +25,7 @@
                     about a variety of subjects.</p>
             </div>
             <div class="offset-md-1 col-md-11 col-sm-12 row-10 blogs" *ngIf='otherBlogs.length'>
-                <div *ngFor='let otherblog of otherBlogs' class="col-12 row blog">
+                <div *ngFor='let otherblog of otherBlogs | reverse' class="col-12 row blog">
                     <div class="col-md-3">
                         <h5 class="title">{{otherblog.title}}</h5>
                         <p class="sub-title">{{otherblog.category | uppercase}} | {{otherblog.when | uppercase}}</p>
