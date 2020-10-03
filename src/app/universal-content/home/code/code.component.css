@@ -20,7 +20,8 @@ hr {
     padding: 10% 4%;
     background: url('/assets/img/home-code.jpg');
     background-size: cover;
-    background-position-y: bottom;
+    background-position-x: center;
+    background-position-y: top;
     color: white;
 }
 

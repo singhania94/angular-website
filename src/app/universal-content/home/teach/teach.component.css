@@ -19,6 +19,7 @@ hr {
     background: url('/assets/img/home-learn.jpg');
     background-attachment: fixed;
     background-size: cover;
+    background-position-y: center;
     padding: 2%;
 }
 
@@ -36,7 +37,7 @@ hr {
 
 a {
     text-decoration: none;
-    color: green;
+    color: rgb(151, 111, 0);
 }
 
 .button {

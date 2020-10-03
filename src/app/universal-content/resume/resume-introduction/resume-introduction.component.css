@@ -2,9 +2,9 @@
     width: 100%;
     background-image: url('/assets/img/resume-intro.jpg');
     background-size: cover;
-    background-position-x: left;
+    background-position-x: center;
     background-position-y: bottom;
-    padding: 250px 10% 10% 10%;
+    padding: 500px 10% 10% 10%;
     color: white;
     text-align: center;
 }
@@ -44,7 +44,7 @@
     border-style: solid;
     border-color: white;
     background: white;
-    color: black;
+    color: rgb(169, 34, 34);
 }
 
 h5 {

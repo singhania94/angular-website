@@ -2,8 +2,9 @@
 
 html,
 body {
-    font-family: 'Roboto Mono', monospace;
-    /*font-family: 'Special Elite', cursive;*/
+    font-family: 'Fira Code', monospace;
+    /*font-family: 'Roboto Mono', monospace;*/
+    font-size: large;
     max-width: 100%;
     overflow-x: hidden;
     overflow-wrap: break-word;

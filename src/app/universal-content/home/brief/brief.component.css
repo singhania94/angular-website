@@ -59,24 +59,20 @@ h5 {
 
 .code:hover {
     filter: grayscale(100%);
-    /*background: url('../../../../assets/img/coding_edited_bw-reduced.jpg');*/
 }
 
 .teach:hover {
     filter: grayscale(100%);
-    /*background: url('../../../../assets/img/beat_edited_bw.jpg');*/
 }
 
 .travel:hover {
     filter: grayscale(100%);
-    /*background: url('../../../../assets/img/travel_edited_bw-reduced.jpg');*/
 }
 
 p {
     opacity: 0;
-    background: rgba(255, 255, 255, 0.25);
+    background: white;
     padding: 2%;
-    color: black;
     font-weight: 900;
     transition: 1s;
 }
