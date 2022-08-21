@@ -2,16 +2,16 @@
     width: 100%;
     background-image: url('/assets/img/resume-intro.jpg');
     background-size: cover;
-    background-position-x: center;
-    background-position-y: bottom;
+    background-position-x: right;
+    background-position-y: center;
     padding: 500px 10% 10% 10%;
     color: white;
     text-align: center;
 }
 
 .intro-box {
-    margin-left: auto;
-    margin-right: 0%;
+    margin-left: 0%;
+    margin-right: auto;
     padding: 2%;
     background: rgba(0, 0, 0, 0.6)
 }
